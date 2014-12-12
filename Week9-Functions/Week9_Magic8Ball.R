@@ -25,7 +25,7 @@ MultiplyTheseNumbers(2,6)
 #
 stdErr <- function(x) {
   #Finds missing data, then removes it and places data into a placeholder.
-  se.no.NA <<- x[!is.na(x)]
+  se.no.NA <- x[!is.na(x)]
   
   #The standard error function.
   #length() tells you how many values are in a vector.
